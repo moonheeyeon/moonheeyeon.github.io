@@ -1,0 +1,66 @@
+h1{ color:#ffcce6;
+    font-family: 'Pacifico', cursive;
+    font-size:  39px;       
+}
+
+/* 배경 이미지 바꾸기 */
+
+.title_box{
+    background:url('./사진16.JPG');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -203px;
+}
+
+body{background: black;}
+
+h1{padding: 213px;
+    text-align: right; 
+    }
+.nav {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        margin: auto;
+        width: 342px;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+        color: #fff;
+        background-color: #ffcce6;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+     }
+        
+    /* 이미지 둥글게 만들기:.
+        border: 1px solid black;
+        border-radius: 100%;
+        background: white; width: 100px; margin: 0px auto; display: block;} */
+        img{
+            border: 2px solid #ffcce6;
+            border-radius: 100%;
+            background: none;
+            width: 292px;
+            margin: 0px auto;
+            display: block;
+            /* 박스 그림자 주기 */
+            box-shadow: 2px 2px 10px white;
+        }
+        /* 이미지 움직임 주기 */
+        /* .lion:hover{
+            transform: scale(1.2);
+            background: brown; */
+        
+        img:hover{
+            transform: scale(1.2);
+        }
+        .nav:hover{transform: scale(1.2);}
+
+        
+            

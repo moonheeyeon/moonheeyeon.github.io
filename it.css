@@ -1,0 +1,53 @@
+body{background:black;}
+.h1, h1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px brown;
+}
+.h1, h2 {
+    color: #ffcce6;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.h1, h3 {
+    color: white;
+}
+.h1, h4 {
+    color: white;
+}
+ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    color: white;
+}
+.title_box {
+    margin: 30px;
+    padding: 70px;
+    background: #ddd6f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+    .nav {
+       background-color:black;
+    }
+/* .hr{<hr style="border: dotted 10px red;">;
+    } */
+    hr {
+        border: 0;
+        width: 100%;
+        color:#ffcce6;
+        background-color:#ffcce6;
+        height: 1px;
+        border-style:dotted;
+      }
+    p{color: white;}
+    .container {widows: 1200px;
+
+    }
+    img:hover{
+        transform: scale(1.2);
+    }
+    a:hover{
+        text-decoration: none;
+        color: #ffcce6;
+    }

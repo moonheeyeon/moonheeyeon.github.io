@@ -1,0 +1,63 @@
+body{background:black;}
+.h1, h1 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px brown;
+}
+
+.h1, h2 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.h1, h3 {
+    font-family: 'Pacifico', cursive;
+    color:#ffcce6;
+}
+
+.h1, h4 {
+    
+    color: white;
+}
+
+ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    color: white;
+}
+
+.title_box{
+    background-color:#ffcce6;
+    
+}
+
+.title_box {
+    
+    margin: 30px;
+    padding: 70px;
+    background: #ddd6f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+    .nav {
+       background-color:black;
+    }
+/* .hr{<hr style="border: dotted 10px red;">;
+    } */
+    hr {
+        border: 0;
+        width: 100%;
+        color:#ffcce6;
+        background-color:#ffcce6;
+        height: 1px;
+        border-style:dotted;
+      }
+      button, input, select, textarea {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        margin: auto;
+        align-items: center;
+        display: block;
+    }
